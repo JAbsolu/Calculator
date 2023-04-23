@@ -102,3 +102,52 @@ body {
     background-color: rgb(100, 176, 226);
   }
   
+
+  @media (max-width: 700px) {
+    body, #container {
+      background: #000;
+    }
+    #calculator {
+      background: #000;
+    }
+    #result {
+      color: #fff;
+    }
+    #history {
+      font-size: 1.8rem;
+      color: #fff;
+    }
+
+  }
+
+
+  @media (min-width: 414px) {
+    body, #container {
+      background: #000;
+    }
+    #calculator {
+      background: #000;
+    }
+    #result {
+      color: #fff;
+      margin: 5px 0;
+      font-size: 1.5rem;
+      padding-bottom: 3rem;;
+    }
+    #history {
+      font-size: 1.5rem;
+      padding-bottom:1rem;
+      margin: 5px 0;
+      color: #fff;
+    }
+  .operator,
+  .number,
+  .empty {
+    width: 65px;
+    height: 65px;
+    margin:15px 7px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+  }
+
+  }
