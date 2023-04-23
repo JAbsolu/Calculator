@@ -7,7 +7,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%, #E0C3FC 100%);
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
   }
   
@@ -132,7 +132,7 @@ body {
       color: #fff;
       margin: 5px 0;
       font-size: 1.5rem;
-      padding-bottom: 3rem;;
+      padding-bottom: 3rem;
     }
     #history {
       font-size: 1.5rem;
